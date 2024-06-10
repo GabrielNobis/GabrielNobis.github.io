@@ -237,6 +237,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/cv.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -305,8 +306,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nobis]
+  first_name: [Gabriel]
 
   style: apa
   locale: en
