@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://GabrielNobis.github.io/sitemap.xml
+Sitemap: https://gabrielnobis.net/sitemap.xml
