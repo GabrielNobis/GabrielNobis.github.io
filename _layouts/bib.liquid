@@ -44,49 +44,6 @@
     </div>
   {% endif %}
 
-  {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 pointout">
-      {%- if entry.pointout -%}
-        {%- if site.data.venues[entry.pointout] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.pointout].color != blank %}
-            {% assign venue_style = site.data.venues[entry.pointout].color | prepend: 'style="background-color:' | append: '"' %}
-          {%- endif -%}
-          <pointout
-            class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif -%}
-          >
-            {% if site.data.venues[entry.pointout].url %}
-              <a href="{{site.data.venues[entry.pointout].url}}">{{ entry.pointout }}</a>
-            {% else %}
-              <div>{{- entry.pointout -}}</div>
-            {% endif %}
-          </pointout>
-        {% else %}
-          <pointout class="badge rounded w-100">{{ entry.pointout }}</pointout>
-        {% endif %}
-      {% endif %}
-      {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            alt=entry.preview
-          %}
-        {% endif %}
-      {% endif %}
-    </div>
-  {% endif %}
-  
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
