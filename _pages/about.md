@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 social: true # includes social icons at the bottom of the page
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student in the <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
 
 profile:
   align: right
