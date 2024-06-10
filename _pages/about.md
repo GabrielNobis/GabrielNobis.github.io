@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My primary research interests lie in diffusion models and their applications in the medical field. The main focus of my PhD is to examine the underlying stochastic processes in continuous-time diffusion models.
+My primary research interests lie in generative diffusion models and their applications in the medical field. The main focus of my PhD is to examine the underlying stochastic processes in continuous-time score-based generative models.
 
-Previously. I received my master degree in mathematics from Technical University of Berlin with focud on stochastic processes and machine learning.
+Previously, I received my master degree in mathematics from Technical University of Berlin with focud on stochastic processes and machine learning.
 
