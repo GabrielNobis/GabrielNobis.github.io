@@ -19,6 +19,7 @@
 
 @inproceedings{aversa2023diffinfinite,
 	abbr={NeurIPS},
+	pointout={Spotlight},
 	bibtex_show={true},
 	author = {Aversa, Marco and Nobis, Gabriel and H\"{a}gele, Miriam and Standvoss, Kai and Chirica, Mihaela and Murray-Smith, Roderick and Alaa, Ahmed M. and Ruff, Lukas and Ivanova, Daniela and Samek, Wojciech and Klauschen, Frederick and Sanguinetti, Bruno and Oala, Luis},
 	booktitle = {Advances in Neural Information Processing Systems},
@@ -33,6 +34,8 @@
 	code={https://github.com/marcoaversa/diffinfinite},
 	website={https://marcoaversa.github.io/diffinfinite/},
 	award_name={Spotlight},
+	abstract={We present DiffInfinite, a hierarchical diffusion model that generates arbitrarily large histological images while preserving long-range correlation structural information. Our approach first generates synthetic segmentation masks, subsequently used as conditions for the high-fidelity generative diffusion process. The proposed sampling method can be scaled up to any desired image size while only requiring small patches for fast training. Moreover, it can be parallelized more efficiently than previous large-content generation methods while avoiding tiling artifacts. The training leverages classifier-free guidance to augment a small, sparsely annotated dataset with unlabelled data. Our method alleviates unique challenges in histopathological imaging practice: large-scale information, costly manual annotation, and protective data handling. 
+The biological plausibility of DiffInfinite data is evaluated in a survey by ten experienced pathologists as well as a downstream classification and segmentation task. Samples from the model score strongly on anti-copying metrics which is relevant for the protection of patient data.},
 	selected={true}
 }
 
@@ -45,11 +48,20 @@ journal={Transactions on Machine Learning Research},
 issn={2835-8856},
 year={2023},
 url={https://openreview.net/forum?id=I4IkGmgFJz},
-note={}
+abstract={Camera images are ubiquitous in machine learning research. 
+They also play a central role in the delivery of important services spanning medicine and environmental surveying.
+However, the application of machine learning models in these domains has been limited because of robustness concerns.
+A primary failure mode are performance drops due to differences between the training and deployment data.
+While there are methods to prospectively validate the robustness of machine learning models to such dataset drifts, existing approaches do not account for explicit models of the primary object of interest: the data. 
+This makes it difficult to create physically faithful drift test cases or to provide precise specifications of data models that should be avoided during the deployment of a machine learning model.
+In this study, we demonstrate how these shortcomings can be overcome by pairing machine learning robustness validation with physical optics. We examine the role raw sensor data and differentiable data models can play in controlling performance risks related to image dataset drift. The findings are distilled into three applications. First, drift synthesis enables the controlled generation of physically faithful drift test cases. \yyad{2}{3.}{The results for absolute and relative changes in task model performance obtained with our method diverge markedly from an augmentation testing alternative that is not physically faithful.}
+Second, the gradient connection between machine learning model and our data models allows for drift forensics that can be used to specify performance-sensitive data models which should be avoided during deployment of a machine learning model. Third, drift adjustment opens up the possibility for processing adjustments in the face of drift. This can lead to speed up and stabilization of classifier training at a margin of up to 20\% in validation accuracy. Alongside our data model code we release two datasets to the public that we collected as part of this work.
+In total, the two datasets, Raw-Microscopy and Raw-Drone, comprise 1,488 scientifically calibrated reference raw sensor measurements, 8,928 raw intensity variations as well as 17,856 images processed through our data models with twelve different configurations. A guide to access the open code and datasets is available at \url{https://anonymous.4open.science/r/tmlr/README.md}.}
 }
 
 @InProceedings{pmlr-v136-oala20a,
   abbr={NeurIPS},
+  pointout={Spotlight},
   title = 	 {ML4H Auditing: From Paper to Practice},
   author =       {Oala, Luis and Fehr, Jana and Gilli, Luca and Balachandran, Pradeep and Leite, Alixandro Werneck and Calderon-Ramirez, Saul and Li, Danny Xie and Nobis, Gabriel and Alvarado, Erick Alejandro Mu\~noz and Jaramillo-Gutierrez, Giovanna and Matek, Christian and Shroff, Arun and Kherif, Ferath and Sanguinetti, Bruno and Wiegand, Thomas},
   booktitle = 	 {Proceedings of the Machine Learning for Health NeurIPS Workshop},
