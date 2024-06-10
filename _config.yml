@@ -131,7 +131,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 ### added comment start ###
-
 #blog_name: al-folio # blog_name will be displayed in your blog page
 #blog_description: a simple whitespace theme for academics
 #permalink: /blog/:year/:title/
@@ -168,6 +167,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 ## If you have blog posts published on medium.com or other external sources,
 ## you can display them in your blog by adding a link to the RSS feed.
 
+
 #external_sources:
 #  - name: medium.com
 #    rss_url: https://medium.com/@al-folio/feed
@@ -198,7 +198,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -286,7 +286,6 @@ jekyll-minifier:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-
 jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
@@ -298,12 +297,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-### added comment start ###
-
-#display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-#display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
-
-### added comment start ###
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
