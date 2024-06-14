@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My primary research interests lie in generative diffusion models and their applications in the medical field. The main focus of my PhD is the underlying stochastic processes in continuous-time score-based generative models.
+My primary research interests lie in generative diffusion models and their applications in the medical field and the science. The main focus of my PhD is the underlying stochastic processes in continuous-time score-based generative models.
 
 Previously, I received my master's and bachelor's degree in mathematics from Technical University of Berlin with focus on stochastic processes and machine learning.
 
