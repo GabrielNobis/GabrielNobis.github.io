@@ -1,19 +1,21 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @misc{nobis2023generative,
 	abbr={Preprint},
 	bibtex_show={true},
 	title={Generative Fractional Diffusion Models}, 
-	author={Gabriel Nobis and Marco Aversa and Maximilian Springenberg and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
+	author={uthor={Gabriel Nobis and Maximilian Springenberg and Marco Aversa and Michael Detzel and Rembert Daems and Roderick Murray-Smith and Shinichi Nakajima and Sebastian Lapuschkin and Stefano Ermon and Tolga Birdal and Manfred Opper and Christoph Knochenhauer and Luis Oala and Wojciech Samek}},
 	year={2023},
 	eprint={2310.17638},
 	archivePrefix={arXiv},
 	primaryClass={cs.LG},
 	pdf={https://arxiv.org/pdf/2310.17638},
+	code={https://github.com/GabrielNobis/gfdm},
 	additional_info={NeurIPS 2023 Workshop on Diffusion Models.},
+	abstract={We introduce the first continuous-time score-based generative model that leverages fractional diffusion processes for its underlying dynamics. Although diffusion models have excelled at capturing data distributions, they still suffer from various limitations such as slow convergence, mode-collapse on imbalanced data, and lack of diversity. These issues are partially linked to the use of light-tailed Brownian motion (BM) with independent increments. In this paper, we replace BM with an approximation of its non-Markovian counterpart, fractional Brownian motion (fBM), characterized by correlated increments and Hurst index $H \in (0,1)$, where $H=1/2$ recovers the classical BM. To ensure tractable inference and learning, we employ a recently popularized Markov approximation of fBM (MA-fBM) and derive its reverse time model, resulting in generative fractional diffusion models (GFDMs). We characterize the forward dynamics using a continuous reparameterization trick and propose an augmented score matching loss to efficiently learn the score-function, which is partly known in closed form, at minimal added cost. The ability to drive our diffusion model via fBM provides flexibility and control. $H \leq 1/2$ enters the regime of rough paths whereas $H>1/2$ regularizes diffusion paths and invokes long-term memory as well as a heavy-tailed behaviour (super-diffusion). The Markov approximation allows added control by varying the number of Markov processes linearly combined to approximate fBM. Our evaluations on real image datasets demonstrate that GFDM achieves greater pixel-wise diversity and enhanced image quality, as indicated by a lower FID, offering a promising alternative to traditional diffusion models.},
+	selected={true}
+}
 	selected={true}
 }
 
