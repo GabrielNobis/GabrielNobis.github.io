@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in machine learning. <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
+subtitle: PhD student in Machine Learning. <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
 
 profile:
   align: right
