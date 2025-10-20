@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been selected as a NeurIPS 2025 <a href="https://tolgabirdal.github.io/people/">Top Reviewer</a>.  
+I have been selected as a NeurIPS 2025 <a href="https://neurips.cc/Conferences/2025/ProgramCommittee">Top Reviewer</a>.  
