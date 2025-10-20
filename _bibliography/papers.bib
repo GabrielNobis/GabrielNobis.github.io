@@ -1,15 +1,5 @@
 ---
 ---
-@inproceedings{
-nobis2025fractional,
-abbr={ICLR},
-title={Fractional Brownian Bridges for Aligned Data},
-author={Gabriel Nobis and Arina Belova and Maximilian Springenberg and Rembert Daems and Christoph Knochenhauer and Manfred Opper and Tolga Birdal and Wojciech Samek},
-booktitle={Learning Meaningful Representations of Life (LMRL) Workshop at ICLR 2025},
-year={2025},
-url={https://openreview.net/forum?id=PoEFXbYNii}
-abstract={Modeling stochastic processes with fractional diffusion instead of purely Brownian-driven dynamics may better account for real-world memory effects, long-range dependencies, and anomalous diffusion phenomena that standard Brownian motion fails to capture. We incorporate fractional Brownian motion (fBM) into aligned diffusion bridges for conformational changes in proteins, utilizing a Markov approximation of fractional Brownian motion (MA-fBM) to study the effect of this generalized prior reference process on predicting future states of the protein conformations from aligned data. We observe that our generalized dynamics yield a lower root mean-squared deviation (RMSD) of $C_{\alpha}$ atomic positions in the predicted future state from the ground truth. The best performance for this task is achieved with a scaled Ornstein-Uhlenbeck (OU) reference process, which predicts $32\%$ of examples with an $\text{RMSD}<2\text{\AA}$ on the D3PM test split, whereas a scaled purely Brownian reference process achieves $0\%$ for this thresholde.}
-}
 
 @inproceedings{nobis2023generative,
 	abbr={NeurIPS},
@@ -24,18 +14,6 @@ abstract={Modeling stochastic processes with fractional diffusion instead of pur
 	code={https://github.com/GabrielNobis/gfdm},
 	abstract={We introduce the first continuous-time score-based generative model that leverages fractional diffusion processes for its underlying dynamics. Although diffusion models have excelled at capturing data distributions, they still suffer from various limitations such as slow convergence, mode-collapse on imbalanced data, and lack of diversity. These issues are partially linked to the use of light-tailed Brownian motion (BM) with independent increments. In this paper, we replace BM with an approximation of its non-Markovian counterpart, fractional Brownian motion (fBM), characterized by correlated increments and Hurst index $H \in (0,1)$, where $H=0.5$ recovers the classical BM. To ensure tractable inference and learning, we employ a recently popularized Markov approximation of fBM (MA-fBM) and derive its reverse-time model, resulting in \emph{generative fractional diffusion models} (GFDM). We characterize the forward dynamics using a continuous reparameterization trick and propose \emph{augmented score matching} to efficiently learn the score function, which is partly known in closed form, at minimal added cost. The ability to drive our diffusion model via MA-fBM offers flexibility and control. $H \leq 0.5$ enters the regime of \emph{rough paths} whereas $H>0.5$ regularizes diffusion paths and invokes long-term memory. The Markov approximation allows added control by varying the number of Markov processes linearly combined to approximate fBM. Our evaluations on real image datasets demonstrate that GFDM achieves greater pixel-wise diversity and enhanced image quality, as indicated by a lower FID, offering a promising alternative to traditional diffusion models.},
 	selected={true}
-}
-
-@misc{detzel2024spatialshortcutsgraphneural,
-      abbr={preprint}
-      title={Spatial Shortcuts in Graph Neural Controlled Differential Equations}, 
-      author={Michael Detzel and Gabriel Nobis and Jackie Ma and Wojciech Samek},
-      year={2024},
-      eprint={2410.19673},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.19673}, 
-      abstract={We incorporate prior graph topology information into a Neural Controlled Differential Equation (NCDE) to predict the future states of a dynamical system defined on a graph. The informed NCDE infers the future dynamics at the vertices of simulated advection data on graph edges with a known causal graph, observed only at vertices during training. We investigate different positions in the model architecture to inform the NCDE with graph information and identify an outer position between hidden state and control as theoretically and empirically favorable. Our such informed NCDE requires fewer parameters to reach a lower Mean Absolute Error (MAE) compared to previous methods that do not incorporate additional graph topology information.}
 }
 
 @inproceedings{aversa2023diffinfinite,
