@@ -1,5 +1,15 @@
 ---
 ---
+@inproceedings{
+nobis2025fractional,
+abbr={ICLR Workshop},
+title={Fractional Brownian Bridges for Aligned Data},
+author={Gabriel Nobis and Arina Belova and Maximilian Springenberg and Rembert Daems and Christoph Knochenhauer and Manfred Opper and Tolga Birdal and Wojciech Samek},
+booktitle={Learning Meaningful Representations of Life (LMRL) Workshop at ICLR 2025},
+year={2025},
+url={https://openreview.net/forum?id=PoEFXbYNii}
+abstract={Modeling stochastic processes with fractional diffusion instead of purely Brownian-driven dynamics may better account for real-world memory effects, long-range dependencies, and anomalous diffusion phenomena that standard Brownian motion fails to capture. We incorporate fractional Brownian motion (fBM) into aligned diffusion bridges for conformational changes in proteins, utilizing a Markov approximation of fractional Brownian motion (MA-fBM) to study the effect of this generalized prior reference process on predicting future states of the protein conformations from aligned data. We observe that our generalized dynamics yield a lower root mean-squared deviation (RMSD) of $C_{\alpha}$ atomic positions in the predicted future state from the ground truth. The best performance for this task is achieved with a scaled Ornstein-Uhlenbeck (OU) reference process, which predicts $32\%$ of examples with an $\text{RMSD}<2\text{\AA}$ on the D3PM test split, whereas a scaled purely Brownian reference process achieves $0\%$ for this threshold.}
+}
 
 @inproceedings{nobis2023generative,
 	abbr={NeurIPS},
@@ -16,6 +26,17 @@
 	selected={true}
 }
 
+@misc{detzel2024spatialshortcutsgraphneural,
+      abbr={preprint}
+      title={Spatial Shortcuts in Graph Neural Controlled Differential Equations}, 
+      author={Michael Detzel and Gabriel Nobis and Jackie Ma and Wojciech Samek},
+      year={2024},
+      eprint={2410.19673},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2410.19673}, 
+      abstract={We incorporate prior graph topology information into a Neural Controlled Differential Equation (NCDE) to predict the future states of a dynamical system defined on a graph. The informed NCDE infers the future dynamics at the vertices of simulated advection data on graph edges with a known causal graph, observed only at vertices during training. We investigate different positions in the model architecture to inform the NCDE with graph information and identify an outer position between hidden state and control as theoretically and empirically favorable. Our such informed NCDE requires fewer parameters to reach a lower Mean Absolute Error (MAE) compared to previous methods that do not incorporate additional graph topology information.}
+}
 
 @inproceedings{aversa2023diffinfinite,
 	abbr={NeurIPS},
@@ -59,7 +80,7 @@ In total, the two datasets, Raw-Microscopy and Raw-Drone, comprise 1,488 scienti
 }
 
 @InProceedings{pmlr-v136-oala20a,
-  abbr={NeurIPS},
+  abbr={NeurIPS Workshop},
   title = 	 {ML4H Auditing: From Paper to Practice},
   author =       {Oala, Luis and Fehr, Jana and Gilli, Luca and Balachandran, Pradeep and Leite, Alixandro Werneck and Calderon-Ramirez, Saul and Li, Danny Xie and Nobis, Gabriel and Alvarado, Erick Alejandro Mu\~noz and Jaramillo-Gutierrez, Giovanna and Matek, Christian and Shroff, Arun and Kherif, Ferath and Sanguinetti, Bruno and Wiegand, Thomas},
   booktitle = 	 {Proceedings of the Machine Learning for Health NeurIPS Workshop},
