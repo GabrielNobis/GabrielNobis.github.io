@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in Machine Learning. <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
+subtitle: PhD student in machine learning. <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p> --->
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
