@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: "Gabriel Nobis" # the website title (if blank, full name will be used instead)
 first_name: Gabriel
 middle_name: 
 last_name: Nobis
 email: gabriel.nobis@hhi.fraunhofer.de
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: "Researcher in Machine"  # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
