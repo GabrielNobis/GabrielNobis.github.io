@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on Fractional Diffusion Bridge Models was accepted at NeurIPS 2025.
+Our paper <a href='https://arxiv.org/abs/2511.01795'> Fractional Diffusion Bridge Models</a> was accepted at NeurIPS 2025.
