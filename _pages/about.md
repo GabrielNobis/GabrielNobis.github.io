@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in machine learning. <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence at Fraunhofer HHI</a>.
+subtitle: PhD student in machine learning working on generative diffusion models at the <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'> Department of Artifical Intelligence, Fraunhofer HHI</a>.
 
 profile:
   align: right
@@ -18,7 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My primary research interests lie in generative diffusion models and their applications in the medical field and the science. The main focus of my PhD is the underlying stochastic processes in continuous-time score-based generative models.
+I study the stochastic dynamics of continuous-time generative diffusion models, with a focus on non-Markovian <a href='https://en.wikipedia.org/wiki/Fractional_Brownian_motion'> fractional Brownian motion</a>, which introduces long-range memory, roughness, and anomalous diffusion absent in standard Brownian models. In addition, I work on applying diffusion models in medicine and the natural sciences.
 
 Previously, I received my master's and bachelor's degree in mathematics from Technical University of Berlin with focus on stochastic processes and machine learning.
-
