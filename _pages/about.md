@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in machine learning working on generative diffusion models at the <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'>Department of Artificial Intelligence at Fraunhofer HHI</a> in Berlin under the supervision of <a href='https://iphome.hhi.de/samek/'>Wojciech Samek</a>.
+subtitle: PhD student in machine learning at the <a href='https://www.hhi.fraunhofer.de/en/departments/ai.html'>Department of Artificial Intelligence at Fraunhofer HHI</a> in Berlin under the supervision of <a href='https://iphome.hhi.de/samek/'>Wojciech Samek</a>.
 
 profile:
   align: right
