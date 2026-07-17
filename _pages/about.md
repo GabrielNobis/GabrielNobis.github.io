@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My research focuses on developing machine learning methods from first principles to advance scientific applications. Currently, I study the stochastic dynamics of diffusion-based generative models — in particular, models driven by non-Markovian fractional Brownian motion — and their applications in medicine and the natural sciences.
+My research focuses on developing principled machine learning methods to advance scientific applications. Currently, I study the stochastic dynamics of diffusion-based generative models — in particular, models driven by non-Markovian fractional Brownian motion — and their applications in medicine and the natural sciences.
 
 Previously, I was a Visiting Researcher in the <a href='https://circle-group.github.io/'>CIRCLE Group</a> of <a href='https://tolgabirdal.github.io/'>Tolga Birdal</a> at Imperial College London. I received my master's and bachelor's degrees in mathematics from Technische Universität Berlin, with a focus on stochastic processes and machine learning.
